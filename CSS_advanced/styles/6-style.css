@@ -3,7 +3,8 @@ html {
   font-size: 62.5%;
 }
 body {
-  color: #161616;
+  color: var(--text-color);
+  font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
 }
@@ -40,14 +41,12 @@ body {
   color: var(--text-color);
   font-family: var(--font-family-base);
 }
-head {
-  font-weight: var(--font-weight-bold);
-}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  font-weight: var(--font-weight-bold);
   font-family: var(--font-family-title);
 }
